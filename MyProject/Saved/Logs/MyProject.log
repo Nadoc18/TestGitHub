@@ -933,3 +933,166 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.09-15.59.29:376][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
 [2021.12.09-15.59.29:377][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2021.12.09-15.59.29:534][  3]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.09-16.02.20:232][616]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.09-16.02.21:664][616]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.12.09-16.02.21:669][616]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.12.09-16.02.21:675][616]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.12.09-16.02.26:373][169]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBP
+[2021.12.09-16.02.26:377][169]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.12.09-16.02.28:080][360]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/NewBP.NewBP
+[2021.12.09-16.02.28:261][360]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.12.09-16.02.28:957][360]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2021.12.09-16.02.32:012][683]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.09-16.02.34:691][983]LogSlate: Window 'NewBP' being destroyed
+[2021.12.09-16.02.34:729][983]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-16.02.34:729][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-16.02.36:030][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/NewBP" FILE="../../../../../../Users/User/Documents/GitHub/TestGitHub/MyProject/Content/TopDownBP/NewBP.uasset" SILENT=true
+[2021.12.09-16.02.36:033][124]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/TestGitHub/MyProject/Saved/NewBP27E4B23D4AC0F92F69C938B7B55D0D85.tmp' to '../../../../../../Users/User/Documents/GitHub/TestGitHub/MyProject/Content/TopDownBP/NewBP.uasset'
+[2021.12.09-16.02.36:043][124]AssetCheck: New page: Asset Save: NewBP
+[2021.12.09-16.02.36:043][124]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/NewBP.NewBP
+[2021.12.09-16.02.58:578][516]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/NewBP.NewBP
+[2021.12.09-16.03.02:667][941]LogSlate: Window 'NewBP' being destroyed
+[2021.12.09-16.03.02:672][941]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-16.03.02:672][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-16.03.02:709][941]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/NewBP.NewBP
+[2021.12.09-16.03.02:996][941]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.09-16.03.07:819][500]LogSlate: Window 'NewBP' being destroyed
+[2021.12.09-16.03.07:825][500]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-16.03.07:825][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-16.03.09:567][687]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-16.03.09:570][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-16.03.09:570][687]PIE: New page: PIE session: TopDownExampleMap (9 déc. 2021 à 20:03:09)
+[2021.12.09-16.03.09:571][687]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.09-16.03.09:572][687]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.09-16.03.09:572][687]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2021.12.09-16.03.09:583][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010454s)
+[2021.12.09-16.03.09:584][687]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2021.12.09-16.03.09:584][687]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2021.12.09-16.03.09:584][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011432s)
+[2021.12.09-16.03.09:605][687]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.12.09-16.03.09:606][687]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.12.09-16.03.09:606][687]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-16.03.09:606][687]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-16.03.09:606][687]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-16.03.09:606][687]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-16.03.09:606][687]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-16.03.09:606][687]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-16.03.09:606][687]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-16.03.09:606][687]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-16.03.09:607][687]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.12.09-16.03.09:607][687]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.12.09-16.03.09:607][687]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.09-16.03.09:607][687]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-16.03.09:610][687]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-16.03.09:610][687]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-16.03.09:716][687]LogAudioMixer: Display: Using Audio Device Casque (Realtek USB Audio)
+[2021.12.09-16.03.09:717][687]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-16.03.09:717][687]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-16.03.09:717][687]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-16.03.09:717][687]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-16.03.09:717][687]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.09-16.03.09:717][687]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.09-16.03.09:718][687]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.09-16.03.09:718][687]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.09-16.03.09:718][687]LogInit: FAudioDevice initialized.
+[2021.12.09-16.03.09:718][687]LogAudio: Display: Audio Device (ID: 2) registered with world 'TopDownExampleMap'.
+[2021.12.09-16.03.09:722][687]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.12.09-16.03.09:724][687]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2021.12.09-18.03.09
+[2021.12.09-16.03.09:724][687]LogWorld: Bringing up level for play took: 0.001459
+[2021.12.09-16.03.09:725][687]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.12.09-16.03.09:727][687]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.12.09-16.03.09:727][687]PIE: Server logged in
+[2021.12.09-16.03.09:729][687]PIE: Play in editor total start time 0,159 seconds.
+[2021.12.09-16.03.45:019][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-16.03.45:019][875]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2021.12.09-16.03.45:019][875]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-16.03.45:020][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-16.03.45:026][875]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-16.03.45:030][875]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-16.03.45:053][875]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.09-16.03.45:054][875]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.09-16.03.45:055][875]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.09-16.03.45:059][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-16.03.45:088][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.12.09-16.03.45:106][876]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.12.09-16.03.56:140][444]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.09-16.03.56:143][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.09-16.03.56:143][444]PIE: New page: PIE session: TopDownExampleMap (9 déc. 2021 à 20:03:56)
+[2021.12.09-16.03.56:143][444]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2021.12.09-16.03.56:151][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007831s)
+[2021.12.09-16.03.56:151][444]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2021.12.09-16.03.56:152][444]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2021.12.09-16.03.56:152][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.008845s)
+[2021.12.09-16.03.56:193][444]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.12.09-16.03.56:194][444]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.12.09-16.03.56:194][444]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.09-16.03.56:194][444]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.09-16.03.56:194][444]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.09-16.03.56:194][444]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.09-16.03.56:194][444]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.09-16.03.56:194][444]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.09-16.03.56:194][444]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.09-16.03.56:194][444]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.09-16.03.56:195][444]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.12.09-16.03.56:195][444]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.12.09-16.03.56:195][444]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.09-16.03.56:195][444]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.09-16.03.56:198][444]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-16.03.56:198][444]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-16.03.56:303][444]LogAudioMixer: Display: Using Audio Device Casque (Realtek USB Audio)
+[2021.12.09-16.03.56:303][444]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.09-16.03.56:303][444]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.09-16.03.56:303][444]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.09-16.03.56:303][444]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.09-16.03.56:303][444]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.09-16.03.56:303][444]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.09-16.03.56:304][444]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.09-16.03.56:304][444]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.09-16.03.56:304][444]LogInit: FAudioDevice initialized.
+[2021.12.09-16.03.56:304][444]LogAudio: Display: Audio Device (ID: 3) registered with world 'TopDownExampleMap'.
+[2021.12.09-16.03.56:314][444]LogLoad: Game class is 'TopDownGameMode_C'
+[2021.12.09-16.03.56:316][444]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2021.12.09-18.03.56
+[2021.12.09-16.03.56:316][444]LogWorld: Bringing up level for play took: 0.001312
+[2021.12.09-16.03.56:316][444]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.12.09-16.03.56:317][444]PIE: Server logged in
+[2021.12.09-16.03.56:318][444]PIE: Play in editor total start time 0,175 seconds.
+[2021.12.09-16.04.28:049][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-16.04.28:049][227]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2021.12.09-16.04.28:049][227]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.09-16.04.28:049][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-16.04.28:054][227]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.09-16.04.28:057][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.09-16.04.28:067][227]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.09-16.04.28:067][227]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.09-16.04.28:068][227]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.09-16.04.28:072][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.09-16.04.28:074][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.12.09-16.04.28:110][229]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.12.09-16.10.07:000][889]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ecc4f2b8-9577-4928-819c-03a36e08bc8b}.
+[2021.12.09-16.10.07:000][889]LogAudioMixer: Resetting audio stream to device id 
+[2021.12.09-16.10.07:003][889]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-16.10.07:003][889]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-16.16.12:711][985]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{27630819-1292-4e8c-98da-0eebc0227eda}.
+[2021.12.09-16.16.12:711][985]LogAudioMixer: Resetting audio stream to device id 
+[2021.12.09-16.16.13:585][985]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-16.16.13:585][985]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-16.16.14:529][986]LogAudioMixer: Resetting audio stream to device id 
+[2021.12.09-16.16.14:582][986]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.09-16.16.14:582][986]LogAudioMixer: Display: 1: FrontRight
+[2021.12.09-16.25.44:108][264]LogContentBrowser: Deferred new asset file creation: NewFunctionLibrary
+[2021.12.09-16.25.44:117][264]LogContentBrowser: Creating deferred item: NewFunctionLibrary
+[2021.12.09-16.25.47:193][621]LogContentBrowser: Attempting asset rename: NewFunctionLibrary -> HI
+[2021.12.09-16.25.47:196][621]LogContentBrowser: End creating deferred item NewFunctionLibrary
+[2021.12.09-16.25.49:223][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/HI" FILE="../../../../../../Users/User/Documents/GitHub/TestGitHub/MyProject/Content/TopDownBP/HI.uasset" SILENT=true
+[2021.12.09-16.25.49:224][858]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/TestGitHub/MyProject/Saved/HI546F44024070C5F60FC9A5B1AA46FAED.tmp' to '../../../../../../Users/User/Documents/GitHub/TestGitHub/MyProject/Content/TopDownBP/HI.uasset'
+[2021.12.09-16.25.49:234][858]AssetCheck: New page: Asset Save: HI
+[2021.12.09-16.25.49:234][858]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/HI.HI
+[2021.12.09-16.26.12:889][320]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.12.09-16.26.12:894][320]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.12.09-16.26.12:901][320]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.12.09-16.26.18:410][971]LogContentBrowser: Attempting asset rename: NewBlueprint -> bONJOURNO
+[2021.12.09-16.26.18:413][971]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.12.09-16.26.20:222][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/bONJOURNO" FILE="../../../../../../Users/User/Documents/GitHub/TestGitHub/MyProject/Content/TopDownBP/bONJOURNO.uasset" SILENT=true
+[2021.12.09-16.26.20:225][185]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/TestGitHub/MyProject/Saved/bONJOURNO4105CEBD4D48BBDA487979B67398C2EE.tmp' to '../../../../../../Users/User/Documents/GitHub/TestGitHub/MyProject/Content/TopDownBP/bONJOURNO.uasset'
+[2021.12.09-16.26.20:234][185]AssetCheck: New page: Asset Save: bONJOURNO
+[2021.12.09-16.26.20:234][185]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/bONJOURNO.bONJOURNO
